@@ -1,0 +1,13 @@
+name: BroadcastSystem
+version: 1.0.0
+main: Broadcast\Main
+api: 5.1.2
+author: DerCommander610
+
+commands:
+  broadcast:
+    description: "Broadcast a message to all players"
+    permission: broadcast.cmd.use
+permissions:
+   broadcast.cmd.use:
+     default: op
